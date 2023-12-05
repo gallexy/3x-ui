@@ -13,12 +13,12 @@
 
 **Buy Me a Coffee :**
 
-- Tron USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
+
 
 # Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/gallexy/3x-ui/main/install.sh)
 ```
 
 # Install custom version
@@ -26,7 +26,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 To install your desired version you can add the version to the end of install command. Example for ver `v1.7.9`:
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v1.7.9
+bash <(curl -Ls https://raw.githubusercontent.com/gallexy/3x-ui/main/install.sh) v1.7.9
 ```
 
 # SSL
@@ -66,7 +66,7 @@ You also can use `x-ui` menu then select `SSL Certificate Management`
 ```sh
 ARCH=$(uname -m)
 [[ "${ARCH}" == "aarch64" || "${ARCH}" == "arm64" ]] && XUI_ARCH="arm64" || XUI_ARCH="amd64"
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/gallexy/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. Once the compressed package is downloaded, execute the following commands to install or upgrade x-ui:
